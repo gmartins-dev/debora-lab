@@ -26,42 +26,46 @@ export function Subscribe() {
   }
 
   return (
-    <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+    <div className="flex flex-col items-center min-h-screen bg-no-repeat bg-cover bg-blur">
       <div className="w-full max-w-[1100px] z-10 flex flex-col items-center justify-between mt-10 p-5 mx-auto md:flex-row md:mt-20 xl:p-0">
         <div className="md:max-w-[640px] p-1 xl:p-0 w-full items-center justify-items-center">
           <div className="flex flex-col items-center w-full md:items-start">
             <Logo />
           </div>
           <h1 className="mt-8 text-[2rem] md:text-[2.5rem] leading-tight">
-            Construa uma{' '}
+            Venha&nbsp;
             <strong className="text-blue-500">
-              aplicação completa
+              descobrir
             </strong>
-            , do zero com{' '}
+            &nbsp;e&nbsp;
             <strong className="text-blue-500">
-              React JS
+              revelar&nbsp;
+            </strong>
+            seu &nbsp;
+            <strong className="text-blue-500">
+              Poder Pessoal
             </strong>
           </h1>
 
-          <p className="mt-4 text-gray-200 leading-relaxed">
-            Em apenas uma semana você vai dominar na prática
-            uma das tecnologias mais utilizadas e com alta
-            demanda para acessar as melhores oportunidades
-            do mercado.
+          <p className="mt-4 leading-relaxed text-gray-200">
+            Re-forma Visual proporciona conhecimento e
+            autonomia para você escolher quem quer ser e
+            estar pronta e bem vestida para todas as
+            oportunidades da vida!
           </p>
         </div>
 
-        <div className="p-8 bg-gray-700 border border-gray-500 rounded mt-4 md:mt-0 w-full lg:max-w-[400px]">
-          <strong className="text-2xl mb-6 block">
+        <div className="p-8 text-green-500 bg-[#F3F2EF] border border-gray-500 rounded mt-4 md:mt-0 w-full lg:max-w-[400px]">
+          <strong className="block mb-6 text-2xl">
             Inscreva-se gratutitamente
           </strong>
 
           <form
             onSubmit={handleSubscribe}
-            className="flex flex-col gap-2 w-full"
+            className="flex flex-col w-full gap-2 bg-[#F3F2EF]"
           >
             <input
-              className="bg-gray-900 rounded px-5 h-14"
+              className="px-5 bg-[#E9E4E0] rounded h-14"
               type="text"
               placeholder="Seu nome completo"
               onChange={(event) =>
@@ -69,7 +73,7 @@ export function Subscribe() {
               }
             />
             <input
-              className="bg-gray-900 rounded px-5 h-14"
+              className="px-5 bg-[#E9E4E0] rounded h-14"
               type="text"
               placeholder="Digite seu e-mail"
               onChange={(event) =>
@@ -79,7 +83,7 @@ export function Subscribe() {
 
             <button
               disabled={loading}
-              className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-800 transition-colors disabled:opacity-50"
+              className="py-4 mt-4 text-sm text-[#E9E4E0] font-bold uppercase transition-colors bg-green-500 rounded hover:bg-green-600 disabled:opacity-50"
               type="submit"
             >
               Garantir minha vaga
@@ -89,7 +93,7 @@ export function Subscribe() {
       </div>
 
       <img
-        src="/images/code-mockup.png"
+        src=""
         className="mt-[-5vh] z-0 md:mt-10"
         alt=""
       />

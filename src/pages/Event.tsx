@@ -7,7 +7,7 @@ import { Video } from '../components/Video';
 export function Event() {
   const { slug } = useParams<{ slug: string }>();
 
-  const [sidebarOpened, setSidebarOpened] = useState(false);
+  const [sidebarOpened, setSidebarOpened] = useState(true);
 
   function handleOpenSidebar() {
     setSidebarOpened(!sidebarOpened);

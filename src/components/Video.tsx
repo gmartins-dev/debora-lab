@@ -3,6 +3,7 @@ import {
   CaretRight,
   DiscordLogo,
   FileArrowDown,
+  InstagramLogo,
   Lightning,
 } from 'phosphor-react';
 import { Spinner } from './Spinner';
@@ -67,20 +68,21 @@ export function Video(props: VideoProps) {
 
           <div className="flex flex-col gap-4 w-full lg:w-[250px]">
             <a
-              href=""
+              href="https://www.instagram.com/reformavisual/"
+              target="_blank"
               className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors"
             >
-              <DiscordLogo size={24} />
-              Comunidade do Discord
+              <InstagramLogo size={24} />
+              Instagram
             </a>
 
-            <a
+            {/* <a
               href=""
               className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 hover:bg-blue-500 hover:text-gray-900 transition-colors justify-center"
             >
               <Lightning size={24} />
               Acesse o desafio
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -89,7 +91,7 @@ export function Video(props: VideoProps) {
             href=""
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
           >
-            <div className="bg-green-700 h-full p-6 flex items-center">
+            <div className="bg-[#721D2E] h-full p-6 flex items-center">
               <FileArrowDown size={40} />
             </div>
             <div className="py-6 leading-relaxed">
@@ -110,7 +112,7 @@ export function Video(props: VideoProps) {
             href=""
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
           >
-            <div className="bg-green-700 h-full p-6 flex items-center">
+            <div className="bg-[#721D2E] h-full p-6 flex items-center">
               <FileArrowDown size={40} />
             </div>
             <div className="py-6 leading-relaxed">
