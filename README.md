@@ -1,1 +1,1 @@
-projeto freelancer - plataforma de curso online
+projeto freelancer em desenvovlimento - plataforma de curso online
